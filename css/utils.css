@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita&display=swap');
+ :root {
+    --main-bg-color: rgb(67, 97, 65);
+    --font1: 'Pacifico', cursive;
+    --font2: 'Cookie', cursive;
+    --font3: 'Style Script', cursive;
+    --font4: 'Satisfy', cursive;
+    --font5: 'Sansita', sans-serif;
+}
+
+.font1 {
+    font-family: var(--font1);
+}
+
+.font2 {
+    font-family: var(--font2);
+}
+
+.font3 {
+    font-family: var(--font3);
+}
+
+.font4 {
+    font-family: var(--font4);
+}
+
+.font5 {
+    font-family: var(--font5);
+}
+
+.max-width-1 {
+    max-width: 80vw;
+}
+
+.max-width-2 {
+    max-width: 70vw;
+}
+
+.m-auto {
+    margin: auto;
+}
+
+.btn1 {
+    padding: 0px 8px;
+    border: 2px solid #2c4e2b;
+    border-radius: 4px;
+    font-family: var(--font1);
+    font-size: initial;
+    color: #2c4e2b;
+    cursor: grab;
+    transition: all 0.3s ease-in-out;
+    margin-right: 5px;
+}
+
+.btn1:hover {
+    color: rgb(255, 255, 255);
+    background: var(--main-bg-color);
+}
+
+.form-input {
+    font-size: initial;
+    border: 1px solid rgb(138, 138, 138);
+    border-radius: 4px;
+    margin: 0px 1px;
+    font-family: var(--font1);
+    padding: 1px 8px;
+    margin-top: 2px;
+}
+
+
+/* Contact */
+
+
+/* .rows input,
+textarea {
+    height: 40px;
+    width: 85%;
+    margin: 10px 48px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    resize: vertical;
+    padding: 8px;
+    font-family: var(--font1);
+    font-family: var(--font5);
+} */

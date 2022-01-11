@@ -1,0 +1,77 @@
+.backg {
+    background-color: rgb(44, 44, 54);
+}
+
+.contact-content {
+    background-color: rgb(44, 44, 54);
+    font: var(--font1);
+    border-radius: 4px;
+    border: 1px solid rgb(154, 157, 180);
+    box-sizing: border-box;
+}
+
+.contact-content2 {
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+
+.contact-content h2 {
+    text-align-last: center;
+    height: 45px;
+    font-family: var(--font2);
+    font-weight: lighter;
+    font-size: 30px;
+    padding-top: 10px;
+    background-color: rgb(44, 44, 54);
+    color: rgb(216, 216, 216);
+}
+
+.btn-contact {
+    text-align: center;
+}
+
+
+/* button {
+    border-radius: 24px;
+    border: 1px solid #ccc;
+    font-family: var(--font1);
+    cursor: grab;
+    transition: all 0.3s ease-in-out;
+} */
+
+.btn-light {
+    font-family: var(--font5);
+    border-radius: 24px;
+}
+
+.contact-content3 p {
+    margin-top: 30px;
+    margin-left: 80px;
+    font-size: 20px;
+    font-family: var(--font1);
+    color: rgb(216, 216, 216);
+}
+
+.contact-content3 i {
+    padding-right: 35px;
+    color: rgb(216, 216, 216);
+}
+
+.below-hr {
+    display: flex;
+    flex-direction: row;
+    margin-left: 85px;
+}
+
+.below-hr i {
+    margin-top: 30px;
+    padding-right: 50px;
+    color: rgb(216, 216, 216);
+}
+
+.footer {
+    text-align: center;
+    padding-top: 2px;
+    font-size: medium;
+}

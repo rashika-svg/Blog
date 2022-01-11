@@ -1,0 +1,131 @@
+@media (min-width:800px) {
+    .col-md-4 {
+        flex: 0 0 auto;
+        width: 47.3333333%;
+    }
+    .form-control {
+        max-width: 100%;
+    }
+}
+
+.color {
+    background-color: black;
+}
+
+.register-background {
+    background-color: rgb(71 92 55 / 98%);
+}
+
+.contain {
+    /* outline: 2px solid rgb(163, 161, 161); */
+    outline-offset: 10px;
+    border-radius: 4px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(170, 170, 170);
+    box-shadow: 30px -16px rgb(143, 165, 138);
+}
+
+.back-img {
+    /* background-image: url(../img/1webworkdesk.jpg); */
+    background-size: cover;
+    height: 545px;
+    color: rgb(0, 0, 0);
+}
+
+.back-img2 {
+    background-image: url(../img/istockphoto.jpg);
+    background-size: cover;
+    height: 545px;
+    color: white;
+}
+
+.back-img3 {
+    background-image: url(../img/photo.jpeg);
+    background-size: cover;
+    height: 515px;
+}
+
+.heading-color1 {
+    color: rgb(67, 97, 65);
+    text-align: center;
+    font-family: var(--font3);
+    border-radius: 4px;
+    font-size: 33px;
+}
+
+.heading-color {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: var(--font3);
+    border-radius: 24px;
+    padding: 4px;
+    font-size: 25px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+
+.form-design {
+    text-align: center;
+    font-size: 13px;
+}
+
+.form-design input {
+    border-color: white;
+}
+
+.image img {
+    width: 316px;
+    height: 422px;
+}
+
+.row label,
+input {
+    text-align: center;
+    color: rgb(65, 64, 64);
+}
+
+.row input {
+    border-radius: 20px;
+    font-size: small;
+    padding-bottom: 1px;
+    background-color: rgba(104, 151, 112, 0.205);
+    padding: 5px 10px;
+    /* margin-bottom: 40px; */
+}
+
+.buttonn button {
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: var(--font3);
+    padding: 1px 40px;
+    background-color: rgb(71 92 55);
+    color: white;
+}
+
+.buttonn button:hover {
+    background-color: white;
+    color: rgb(47, 65, 44);
+    font-weight: bold;
+    border: 1px solid rgb(47, 65, 44);
+    transition: all 0.75s;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.create {
+    text-align: center;
+}
+
+.create a {
+    color: #235714;
+    font-size: smaller;
+}
+
+.create a:hover {
+    color: rgb(86, 116, 82);
+}
+
+footer {
+    background-color: rgb(86, 116, 82);
+    text-align: center;
+}

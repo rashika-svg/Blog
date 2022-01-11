@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    /* font-family: var(--font5); */
+    /* height: 50px; */
+    /* background-color: white; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.nav-left {
+    display: flex;
+}
+
+.nav-left img {
+    width: 50px;
+    border-radius: 50px;
+}
+
+.nav-left ul {
+    display: flex;
+    margin: 0 34px;
+    padding-top: 15px;
+}
+
+.nav-left ul li {
+    font-size: medium;
+    list-style: none;
+    margin: 0 14px;
+    font-family: var(--font5);
+}
+
+.nav-left a:hover {
+    color: var(--main-bg-color);
+    /* background: var(--main-bg-color); */
+}
+
+.nav-left ul li a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.content {
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin-top: 25px;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.content-left {
+    font-family: var(--font3);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+.content-left h1 {
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.content-left p {
+    font-family: var(--font5);
+    font-size: 14px;
+}
+
+.content-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-3 img {
+    height: 230px;
+    border: 2px solid black;
+    border-radius: 200px;
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-left: 200px;
+}
+
+.home-article1 {
+    background-color: rgba(255, 255, 255, 0.39);
+    font-size: large;
+    border-radius: 4px;
+}
+
+.home-article2 {
+    background-color: rgba(255, 255, 255, 0.863);
+}
+
+.home-article2 img {
+    border-radius: 50%;
+}
+
+.home-article2-content {
+    align-self: center;
+    font-size: x-large;
+}
+
+.pb-5 {
+    border: 1px solid rgba(229 229 229 / 83%);
+}
+
+.postcontent {
+    font-size: medium;
+    color: rgb(9, 38, 128);
+}
+
+.footer {
+    height: 35px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}

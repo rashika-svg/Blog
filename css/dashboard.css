@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    font-family: var(--font1);
+    /* height: 50px; */
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.nav-left {
+    display: flex;
+}
+
+.nav-left img {
+    width: 60px;
+    border-radius: 50px;
+}
+
+.tr-link a {
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.tr-link a:hover {
+    color: rgb(255, 208, 0);
+}
+
+
+/* .table {
+    height: 500px;
+} */
+
+.fas {
+    color: white;
+}
